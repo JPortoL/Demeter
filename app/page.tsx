@@ -18,7 +18,7 @@ const App: React.FC = () => {
         <h4> 
           <strong> Nota: </strong>
           La primera carga de una imagen puede demorar debido al tiempo que el modelo de
-          HuggingFace necesita para cargar. Espera al menos 20 segundos y, si no aparece la 
+          HuggingFace necesita para cargar. Si esto ocurre, espere al menos 20 segundos y, si no aparece la 
           predicción, al actualizar la página todo funcionará correctamente.
           </h4>
         </div>
