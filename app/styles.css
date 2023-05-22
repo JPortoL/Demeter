@@ -6,11 +6,13 @@
     height: 100vh;
     background-color: #112315;
     padding-top: 50px;
+    font-family: fangsong;
   }
   
   .title {
     font-size: 50px;
     color: #0f9024;
+    font-family: pacifico, arial;
   }
   
   .subtitle {
@@ -18,4 +20,5 @@
     color: #FFFFFF;
     text-align: center;
   }
+  
   

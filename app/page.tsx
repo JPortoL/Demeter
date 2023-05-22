@@ -5,7 +5,7 @@ import ImageUploader from "./componets/ImageUploader";
 const App: React.FC = () => {
   return (
     <div className="container">
-      <h1 className="title">Démeter</h1>
+      <h1 className="title"><strong>Deméter</strong> </h1>
       <h2 className="subtitle">
       ¡La app con la que por fin podrás distinguir perejil y cilantro!
       </h2>

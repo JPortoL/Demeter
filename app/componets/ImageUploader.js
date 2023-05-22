@@ -59,7 +59,10 @@ export default function ImageUploader() {
 
     // Guarda la URL de la imagen y la asigna al elemento de imagen
     const imageURL = URL.createObjectURL(file);
-    imageRef.current.src = imageURL;
+    imageRef.current.innerHTML = `
+      <h3>Imagen ingresada:</h3>
+      <img alt="Imagen" src="${imageURL} "style=" width: 'auto'; height: '180px'; margin: '0 auto' " />
+      `;
   };
 
   // Lee el archivo como un ArrayBuffer
@@ -108,12 +111,10 @@ export default function ImageUploader() {
         </div>
       )}
       {/* Muestra la imagen ingresada si existe */}
-      {result && result.length != null && (
-        <div style={{ marginTop: '1rem', textAlign: 'center' }}>
-          <h3>Imagen ingresada:</h3>
-          <img ref={imageRef} alt="Imagen" style={{ width: 'auto', height: '180px', margin: '0 auto' }} />
+        <div ref={imageRef} style={{ marginTop: '1rem', textAlign: 'center' }}>
+          
         </div>
-      )}
+    
     </div>
   );
 }
