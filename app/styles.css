@@ -1,24 +1,35 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-    background-color: #112315;
-    padding-top: 50px;
-    font-family: fangsong;
-  }
-  
-  .title {
-    font-size: 50px;
-    color: #0f9024;
-    font-family: pacifico, arial;
-  }
-  
-  .subtitle {
-    font-size: 24px;
-    color: #FFFFFF;
-    text-align: center;
-  }
-  
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin-bottom: 1.5rem;
+}
+
+.nota {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+body {
+  background-color: #0b7308;
+}

@@ -61,7 +61,7 @@ export default function ImageUploader() {
     const imageURL = URL.createObjectURL(file);
     imageRef.current.innerHTML = `
       <h3>Imagen ingresada:</h3>
-      <img alt="Imagen" src="${imageURL} "style=" width: 'auto'; height: '180px'; margin: '0 auto' " />
+      <img alt="Imagen" src="${imageURL}" style="max-width:'200px',max-height:'200px',margin:'0 auto'" />
       `;
   };
 
@@ -112,7 +112,6 @@ export default function ImageUploader() {
       )}
       {/* Muestra la imagen ingresada si existe */}
         <div ref={imageRef} style={{ marginTop: '1rem', textAlign: 'center' }}>
-          
         </div>
     
     </div>
