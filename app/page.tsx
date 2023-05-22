@@ -14,7 +14,7 @@ const App: React.FC = () => {
           Recomendación: Sube imágenes en dónde se vean claramente las hojas
         </h3>
         <ImageUploader/>
-        <div className="nota">
+        <div className="nota"> 
         <h4> 
           <strong> Nota: </strong>
           La primera carga de una imagen puede demorar debido al tiempo que el modelo de
