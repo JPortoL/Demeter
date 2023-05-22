@@ -29,16 +29,21 @@ h3 {
 }
 
 /* Formato de la nota.
-   tamaño de fuente, crear recuadro y darle propiedades */
+   tamaño y  color de fuente, crear recuadro y darle propiedades */
 .nota {
+  font-size: 1rem;
   margin-top: 2rem;
   padding: 1rem;
   background-color: #f2f2f2;
   border-width: 0.25rem;
   border-radius: 1rem;
-  border-color: #0d0d0d;
-  font-size: 1rem;
+  border-color: #696969;
   margin-bottom: 0.5rem;
+}
+
+/* Color del texto de la nota */
+h4 {
+  color: #696969;
 }
 
 /* Hacer que el fondo sea de color verde */
