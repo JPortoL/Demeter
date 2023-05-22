@@ -1,7 +1,7 @@
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -23,6 +23,9 @@ h3 {
   margin-top: 2rem;
   padding: 1rem;
   background-color: #f2f2f2;
+  border-width: 0.25rem;
+  border-radius: 1rem;
+  border-color: #0d0d0d;
 }
 
 h4 {

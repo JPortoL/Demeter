@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <ImageUploader/>
         <div className="nota">
         <h4> 
-          <strong> Nota:</strong>
+          <strong> Nota: </strong>
           La primera carga de una imagen puede demorar debido al tiempo que el modelo de
           HuggingFace necesita para cargar. Espera al menos 20 segundos y, si no aparece la 
           predicción, al actualizar la página todo funcionará correctamente.
